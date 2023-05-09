@@ -32,7 +32,7 @@ Route::get('/', function () {
 Route::get('Other', function () {
 
     $data = [
-        'hello'=>'Ciao Sono laltra pagina'
+        'hello'=>"Ciao sono l'altra pagina"
     ];
 
     return view('Other', $data);
